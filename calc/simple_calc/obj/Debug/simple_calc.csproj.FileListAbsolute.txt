@@ -1,0 +1,13 @@
+c:\users\юлия\documents\visual studio 2013\Projects\simple_calc\simple_calc\bin\Debug\simple_calc.exe.config
+c:\users\юлия\documents\visual studio 2013\Projects\simple_calc\simple_calc\bin\Debug\simple_calc.exe
+c:\users\юлия\documents\visual studio 2013\Projects\simple_calc\simple_calc\bin\Debug\simple_calc.pdb
+c:\users\юлия\documents\visual studio 2013\Projects\simple_calc\simple_calc\obj\Debug\simple_calc.csprojResolveAssemblyReference.cache
+c:\users\юлия\documents\visual studio 2013\Projects\simple_calc\simple_calc\obj\Debug\simple_calc.exe
+c:\users\юлия\documents\visual studio 2013\Projects\simple_calc\simple_calc\obj\Debug\simple_calc.pdb
+D:\HACKER\simple_calc\simple_calc\bin\Debug\simple_calc.exe.config
+D:\HACKER\simple_calc\simple_calc\bin\Debug\simple_calc.exe
+D:\HACKER\simple_calc\simple_calc\bin\Debug\simple_calc.pdb
+D:\HACKER\simple_calc\simple_calc\obj\Debug\simple_calc.csprojResolveAssemblyReference.cache
+D:\HACKER\simple_calc\simple_calc\obj\Debug\simple_calc.csproj.CoreCompileInputs.cache
+D:\HACKER\simple_calc\simple_calc\obj\Debug\simple_calc.exe
+D:\HACKER\simple_calc\simple_calc\obj\Debug\simple_calc.pdb
