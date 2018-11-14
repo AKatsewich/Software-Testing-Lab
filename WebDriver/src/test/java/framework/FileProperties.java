@@ -3,7 +3,6 @@ package framework;
 import java.util.Properties;
 import java.io.*;
 
-
 public class FileProperties {
     private Properties prop;
     private String pathFile="./src/test/resources/config.properties";

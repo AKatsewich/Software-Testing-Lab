@@ -10,7 +10,6 @@ import java.util.List;
 public abstract class BaseElement extends BaseEntity {
 
     private By uniqueLocatorElement;
-
     protected WebElement webElement;
 
     protected BaseElement(By locatorElement) {
@@ -34,15 +33,12 @@ public abstract class BaseElement extends BaseEntity {
         return list.size() > 0;
     }
 
-
     public void moveTo() {
         Actions actions = new Actions(driver);
         actions.moveToElement(this.webElement).build().perform();
     }
 
-
     public static boolean isFound(String locator) {
         return !driver.findElements(By.xpath(locator)).isEmpty();
     }
-
 }

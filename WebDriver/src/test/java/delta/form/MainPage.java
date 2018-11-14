@@ -12,11 +12,9 @@ public class MainPage {
     private By cross = By.xpath("//button[@class='search-flyout-close float-right d-none d-lg-block circle-outline icon-moreoptionsclose']");
     private By find = By.xpath("//*[@id=\"btn-book-submit\"]");
 
-
     private String to="RIX";
     private String from = "SAN";
     private WebDriver driver;
-
 
     public  MainPage(WebDriver driverAuthorization){
         driver=driverAuthorization;
@@ -40,5 +38,4 @@ public class MainPage {
         WebElement findEl = driver.findElement(find);
         findEl.click();
     }
-
 }

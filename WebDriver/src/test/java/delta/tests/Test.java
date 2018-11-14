@@ -1,6 +1,5 @@
 package delta.tests;
 import framework.Browser;
-
 import framework.FileProperties;
 import delta.form.MainPage;
 
@@ -18,7 +17,6 @@ public class Test {
     private static String titleMainPage="Airline Tickets & Flights: Book Direct with Delta Air Lines - Official Site";
     private static FileProperties fileProperties;
 
-
     /*
      *  It opens site and fills 'From' and 'To' fields, but not the Date field.
      *  In that case test should fail.
@@ -31,7 +29,6 @@ public class Test {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Long.parseLong(fileProperties.getProperties(strTimeOut)), TimeUnit.SECONDS);
     }
-
 
     @org.testng.annotations.Test
     public void testWork() {
@@ -46,4 +43,3 @@ public class Test {
         //driver.quit();
     }
 }
-

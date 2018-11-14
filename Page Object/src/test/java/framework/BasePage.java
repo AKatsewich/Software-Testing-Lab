@@ -4,7 +4,6 @@ import framework.elements.Label;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
-
 public abstract class BasePage extends BaseEntity {
     protected By locatorPage;
 
@@ -12,6 +11,4 @@ public abstract class BasePage extends BaseEntity {
         Label uniqueElement = new Label(locator);
         Assert.assertTrue(uniqueElement.isEnabled());
     }
-
 }
-

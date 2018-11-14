@@ -6,7 +6,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
-
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -28,9 +27,6 @@ public class BaseEntity {
 
     @AfterTest
     public void after() {
-
         //driver.quit();
     }
-
-
 }

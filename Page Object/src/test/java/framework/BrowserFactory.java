@@ -18,10 +18,8 @@ public class BrowserFactory extends BaseEntity {
     private static String pathChrome = "./src/test/resources/drivers/chromedriver.exe";
     private static String downloadFilepath;
 
-
     private BrowserFactory() {
     }
-
 
     private static DesiredCapabilities getOptionChrome() {
         try {
@@ -39,25 +37,6 @@ public class BrowserFactory extends BaseEntity {
         cap.setCapability(ChromeOptions.CAPABILITY, options);
         return cap;
     }
-
-    private static DesiredCapabilities getOptionFirefox() {
-
-        try {
-            downloadFilepath = new File(configReader.getProperties("pathDownload")).getCanonicalPath();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        FirefoxProfile options = new FirefoxProfile();
-        options.setPreference("browser.download.folderList", 2);
-        options.setPreference("browser.download.manager.showWhenStarting", false);
-        options.setPreference("browser.download.dir", downloadFilepath);
-        options.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/x-debian-package;application/octet-stream");
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability(FirefoxDriver.PROFILE, options);
-        return capabilities;
-    }
-
 
     public static WebDriver getSingletonBrowser() {
        String strBrowser=System.getProperty("browser");

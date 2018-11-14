@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.io.File;
 import java.io.IOException;
 
-
 public class Browser {
 
     private static WebDriver driver;
