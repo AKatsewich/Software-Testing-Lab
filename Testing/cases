@@ -1,32 +1,29 @@
-1. Check that using each of the featured American Express credit cards actually gives you promised airline miles with each spent amount.
-https://online.americanexpress.com/dapply/partner/preacq/dal/dal-1905/carddetails#/cshop?prod_type=businessCardTab
+1. Check that changing language to russian actually changes language.
+https://ru.delta.com/eu/ru
 
-2. Check that renting Hertz� car actually gives you 40% discount on base rates, excluding taxes and fees.
-https://www.delta.com/merch/advancedSearchAction.action
-
-3. Check that on each booking hotel stay over 200$ by October 5, 2018 actually gives you 1000 bonus miles.
-https://www.hotels-delta.com/
-
-4. Check that booking a flight reduces seats count by the amount booked.
-https://www.delta.com/flight-search/book-a-flight
-
-5. Check that accepted refunds return your money and cancelled do not.
-https://www.delta.com/content/www/en_US/support/reservations-and-refunds/passenger-refunds.html
-
-6. Check that cancelling a ticket on each period returns you specified amount.
-https://www.delta.com/us/en/change-cancel/overview
-
-7. Check that changing your flight allowed during specified period.
-https://www.delta.com/us/en/change-cancel/overview
-
-8. Check that booked flight will be visible in your account page.
-https://www.delta.com/flight-search/book-a-flight
-
-9. Check that shopping with featured partners actually gives you bonus flight miles.
-https://www.delta.com/content/www/en_US/skymiles/how-to-earn-miles/additional-partners.html
-
-10. Check that each of the exception fares give you promised flight miles.
-https://www.delta.com/content/www/en_US/skymiles/how-to-earn-miles/exception-fares.html
-
-11. Check that empty date input won't show you flights available.
+2. Check that typing in search field gives you expected results.
 https://www.delta.com/
+
+3. Check that clicking on Skymiles page leeds to main page of Skymiles.
+https://www.delta.com/en_US/skymiles
+
+4. Check that checking your trip by wrong confirmation number gives you an error.
+https://www.delta.com/
+
+5. Check that login with invalid credentials gives you an error.
+https://www.delta.com/login/loginPage
+
+6. Check that clicking on skyteam logo shows up popup about leaving page.
+https://www.delta.com/
+
+7. Check that going to hotel search page and filling two lines gives you rent variants
+https://www.delta.com/merch/searchCarAction.action
+
+8. Check that login with valid credentials logs you.
+https://www.delta.com/login/loginPage
+
+9. Check that empty date input won't show you flights available.
+https://www.delta.com/
+
+10. Check that going to car search page and filling two lines gives you book variants
+https://www.delta.com/merch/searchCarAction.action
