@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DeltaSuite" verbose="1">
+
+    <test name="Delta">
+        <packages>
+            <package name="delta.tests">
+            </package>
+        </packages>
+        <classes>
+            <class name="delta.tests.TestPage"/>
+        </classes>
+    </test>
+</suite>
