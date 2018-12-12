@@ -12,7 +12,7 @@ public class SkymilesPage extends BasePage {
     private String locatorMenu = "//a[@class='nav-link static-link d-none d-lg-block static-link-sky-miles']";
     private String searchLocator = "//a[@class='search-text']";
     private String searchInputLocator = "//input[@class='form-control mb-2 mb-sm-0 custom-search-color']";
-    private String searchResultLocator = "//li/a[contains(@href,\"https://www.delta.com/content/www/en_US/skymiles\")]";
+    private String searchResultLocator = "(//li/a/b[contains(text(),'SkyMiles')])[1]";
     private String searchInput = "Skymiles";
     private String locatorCookieCross = "//button[@class='cookie-close-icon float-right circle-outline']";
 
