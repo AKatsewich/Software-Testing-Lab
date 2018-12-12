@@ -2,11 +2,20 @@ package delta.tests;
 
 import framework.BasePage;
 import framework.BaseTest;
+
+import java.io.PrintStream;
+import java.io.UnsupportedEncodingException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import delta.pageObjects.forms.*;
 
 public class TestPage extends BaseTest {
+
+    PrintStream out = new PrintStream(System.out, true, "UTF-8");
+
+    public TestPage() throws UnsupportedEncodingException{}
+
     /*
      *  It clicks on language selector and chooses Russian language.
      *  Expected result - all text changed to russian.
