@@ -3,8 +3,6 @@ package framework;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
@@ -12,7 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 
-public class BrowserFactory extends BaseEntity {
+public class BrowserFactory extends BaseTest{
 
     private static String OS = System.getProperty("os.name").toLowerCase().substring(0, 4);
     private static String pathChrome = "./src/test/resources/drivers/chromedriver.exe";

@@ -1,4 +1,4 @@
-package steam.pageObjects.forms;
+package delta.pageObjects.forms;
 
 import framework.BasePage;
 import framework.elements.Button;

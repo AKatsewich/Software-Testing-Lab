@@ -1,13 +1,12 @@
 package framework;
 
-import framework.BaseEntity;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
 
-public abstract class BaseElement extends BaseEntity {
+public abstract class BaseElement extends BaseTest {
 
     private By uniqueLocatorElement;
     protected WebElement webElement;
